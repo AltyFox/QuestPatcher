@@ -6,6 +6,7 @@ on:
     - published
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
